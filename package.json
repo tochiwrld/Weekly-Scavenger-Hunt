@@ -1,0 +1,15 @@
+{
+  "name": "weekly-hunt",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private weekly scavenger hunt for friends",
+  "scripts": {
+    "dev": "netlify dev",
+    "db:migrate": "netlify database migrations apply"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest",
+    "@netlify/database": "latest"
+  }
+}
